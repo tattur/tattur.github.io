@@ -1,14 +1,25 @@
-h1{text-align: center;}
-p{font-size: x-large;
-font-family: serif;}
-html,body{
+h1{
+	text-align: center;
 	margin: 0;
-	height: 100%;
+	padding: 0.4em;
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.85);
 }
+p{
+	font-size: x-large;
+	font-family: serif;
+	margin: 7.2em auto;
+	padding: 1.8em;
+	border-radius: 13px;
+	line-height: 1.8;
+	background-color: rgba(225,225,225,0.2);
+}
+html,body{height: 100%;}
 body{
+	margin: 0;
 	color:#000000;
-	background-color:#ffffff;
-	background-image:url(IMG_0584.JPG);
-	background-repeat:no-repeat;
-	background-position:right center;
+	color:#ffffff;
+	background:#00bfff url(IMG_0584.JPG);
+	background-size:cover;
 }
+
