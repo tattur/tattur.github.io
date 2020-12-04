@@ -1,5 +1,14 @@
 h1{text-align: center;}
 p{font-size: x-large;
 font-family: serif;}
-
-
+html,body{
+	margin: 0;
+	height: 100%;
+}
+body{
+	color:#000000;
+	background-color:#ffffff;
+	background-image:url(IMG_0584.JPG);
+	background-repeat:no-repeat;
+	background-position:right center;
+}
