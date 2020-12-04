@@ -10,6 +10,7 @@ h2{
 }
 p{
 	font-size: x-large;
+	font-weight: bold;
 	font-family: serif;
 	margin: 7.2em auto;
 	padding: 1.8em;
@@ -20,13 +21,16 @@ p{
 html,body{height: 100%;}
 body{
 	margin: 0;
-	color:#000000;
+	color:#ffcc00;
 	background:#00bfff url(IMG_0584.JPG);
 	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 li{
 	text-align: center;
 	font-weight: bold;
+	font-size: x-large;
 	border: solid 6px;
 }
-#link1{border-color: #ffcc00}
+#link1{border-color: #ff3300}
