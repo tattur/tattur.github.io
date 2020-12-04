@@ -17,8 +17,8 @@ p{
 html,body{height: 100%;}
 body{
 	margin: 0;
-	color:#000000;
 	color:#ffffff;
+	color:#000000;
 	background:#00bfff url(IMG_0584.JPG);
 	background-size:cover;
 }
