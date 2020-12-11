@@ -6,6 +6,7 @@ h1{
 	background-color: rgba(0,0,0,0.85);
 }
 p{
+	margin: 40px;
 	font-size: x-large;
 	font-weight: bold;
 	font-family: serif;
@@ -15,4 +16,5 @@ li{
 	font-weight: bold;
 	font-size: x-large;
 	background: #ffcc00;
+	border: ridge 3px #ff3300;
 }
