@@ -6,31 +6,21 @@ h1{
 	background-color: rgba(0,0,0,0.85);
 }
 h2{
-	color: #ffffff;
+	color: 000000;
 }
 p{
 	font-size: x-large;
 	font-weight: bold;
 	font-family: serif;
-	margin: 7.2em auto;
-	padding: 1.8em;
-	border-radius: 13px;
-	line-height: 1.8;
-	background-color: rgba(225,225,225,0.2);
 }
 html,body{height: 100%;}
 body{
 	margin: 0;
 	color:#ffcc00;
-	background:#00bfff url(IMG_0584.JPG);
-	background-size:cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 }
 li{
 	text-align: center;
 	font-weight: bold;
 	font-size: x-large;
-	border: solid 6px;
+	background: #ffcc00;
 }
-#link1{border-color: #ff3300}
