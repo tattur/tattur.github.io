@@ -5,7 +5,7 @@ var file_r = fs.OpenTextFile("tattur.github.io/count.txt",1);
 var str_count_r = file_r.ReadLine();
 file_r.Close();
 /*ファイルの文字を数値化し、1増やす*/
-m=Number(str_count);
+session_count=Number(str_count);
 /*onLoadが発動した時に起動する関数*/
 function get_session(m){
 m=m+1;
@@ -15,4 +15,4 @@ file_w.Write(String(m));
 file_w.Close();
 }
 /*これで数を保存することが可能*/
-onLoad=get_session
+onLoad=get_session(session_count);
