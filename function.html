@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>写像</title>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "AMS" }},
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { matchFontHeight: false },
+    displayAlign: "left",
+    displayIndent: "2em"
+  });
+</script>
+<style>
+h1 {font-family: sans-serif; }
+h2 {font-family: sans-serif; }
+p { font-size: x-large;
+font-family: serif; }
+</style>
+</head>
+<body>
+<h1>写像</h1>
+<h2>はじめに</h2>
+<p>一般相対論において時間、空間の座標を決めるうえで写像という概念が使われます。</p>
+<p>写像を説明することで、私がHTMLにおける数式表現をやってみたいということもあります。数式表現をするときに参考にした
+<a href="http://www.ic.daito.ac.jp/~mizutani/html/mathexpress.html">サイトはこちら</a>です。</p>
+<h2>写像の表し方</h2>
+<p>集合$A$の中の元$a$から写像$f$によって、集合$B$の中の元$b$に写される(対応付けられる)ことを$b=f(a)$と表現します。</p>
+<p>ここで$a$から写される元$b$は集合$B$の中のただ一つのものでなくてはいけません。</p>
+<p>例えば、集合$B$に$b_1$,$b_2$という元があって、$b_1=f(a)$も成り立つし、$b_2=f(a)$も成り立つといったことは無しです。</p>
+<p>まぁ、言ってしまえば対応させることをこのように書きますよと言って終わりなんですけど、一応定義域とか値域の話も入れておきますね。</p>
+<h2>定義域、値域</h2>
+<p>先ほどの話でいうと、写像$f$の定義域は集合$A$に該当します。集合$A$を定義域に該当させたら元$a \in A$(集合$A$に含まれる元$a$を表す)は$f(a)$が集合$B$に含まれていなければならない。
+($f(a) \in B$でなくてはならない)</p>
+<p>また、元$a$は何とも対応しないというのも無しとします。</p>
+<p>写像$f$の値域は、先ほどの話でいうと集合$B$に該当します。これは写される元が含まれる集合であれば何でもいいです。</p>
+<h2>全射</h2>
+</body>
+</html>
