@@ -5,6 +5,12 @@ h1{
 	color: #ffffff;
 	background-color: rgba(0,0,0,0.85);
 }
+body{
+	background-image: url("IMG_1404.JPEG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 p{
 	margin: 40px;
 	font-size: x-large;
